@@ -16,8 +16,8 @@ nav{
   align-items: center;
   justify-content: center;
   height: 100%;
-  border-bottom: 1px solid #e6e6e6;
-  background-color: #ccc;
+  background-color: #37474f;
+  color: #F2F6FC;
 }
 
 </style>
