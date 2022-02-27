@@ -22,3 +22,6 @@ html, body{
 .page-enter, .page-leave-active {
   opacity: 0;
 }
+.mb{
+  margin-bottom: 20px;
+}

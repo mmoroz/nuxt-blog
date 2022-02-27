@@ -1,5 +1,5 @@
 export const state = () => ({
-  token: null
+  token: 123
 })
 
 export const mutations = {
@@ -22,6 +22,14 @@ export const actions = {
     }catch(e){
       commit('setError', e, {root:true})
       throw e
+    }
+  },
+
+  async createUser({commit, dispatch}, payloads){
+    try {
+
+    } catch (error) {
+
     }
   },
 
