@@ -64,6 +64,9 @@ export default {
     if(message && message==='logout'){
       this.$message.success('Вы успешно вышли из системы!')
     }
+    if(message && message==='session'){
+      this.$message.warning('Сессия истекла! Войдите в систему.')
+    }
   },
   methods: {
     onSubmit() {
@@ -82,7 +85,6 @@ export default {
             this.loading = false
             this.$router.push('/admin')
           } catch (e) {
-            console.log(e)
             this.loading = false
           }
         }

@@ -8,7 +8,7 @@ export const actions = {
     return await new Promise(resolve => {
       setTimeout(() => {
         resolve(posts)
-      }, 1000)
+      }, 300)
     })
   },
   async remove({}, id) {
